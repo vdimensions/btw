@@ -9,4 +9,4 @@ if [ -z "$msbuild" ]; then
   fi
 fi
 
-eval "${msbuild} \"$@\""
+eval "${msbuild} $@"
